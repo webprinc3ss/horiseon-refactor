@@ -35,4 +35,9 @@ Under Hero
 1. Change <div> to <section> with a class of "hero" in HTML.
 
 Under Content
-1. Change <div> to <section> with a class of "content" in HTML.
+1. Change <div> to <section> with a class of "online-marketing" in HTML.
+2. Changed <div> from each sub-section into <article> for each with their existing classes in HTML.
+3. Added meaningful "alt" tags to images
+4. In CSS, moved all CSS having to do with Content section in between "Content" comments.
+5. Condensing class names under this section to all be under class "online-marketing-types." Why? Because all class .css in this section are redundant.  Condensed "img," "h2" and type-specific formatting.
+6.  Added id of "search-engine-optimization" to that section as link was broken.
