@@ -1,5 +1,3 @@
-# Code Refactor Starter Code
-
 Challenge Assignment
 
 AS A marketing agency
@@ -25,9 +23,16 @@ CHANGES MADE
 Under Head
 1. <title> tag changed text "Horiseon"
 
+Utility Styles
+1. Moved a, p, floats to new section in CSS called "utility styles."
+
 Under Header
 2. <div class="header"> changed to "header"
 3. <div> holding nav elements renamed to "nav"
 4. Renamed styles in .css from .header to header and from div to .nav.
 
 Under Hero
+1. Change <div> to <section> with a class of "hero" in HTML.
+
+Under Content
+1. Change <div> to <section> with a class of "content" in HTML.
