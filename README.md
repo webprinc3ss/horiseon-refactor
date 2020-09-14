@@ -27,17 +27,34 @@ Utility Styles
 1. Moved a, p, floats to new section in CSS called "utility styles."
 
 Under Header
-2. <div class="header"> changed to "header"
+2. <div class="header"> changed to "header"Cond
 3. <div> holding nav elements renamed to "nav"
 4. Renamed styles in .css from .header to header and from div to .nav.
 
 Under Hero
 1. Change <div> to <section> with a class of "hero" in HTML.
 
-Under Content
+Under Marketing Types
 1. Change <div> to <section> with a class of "online-marketing" in HTML.
 2. Changed <div> from each sub-section into <article> for each with their existing classes in HTML.
 3. Added meaningful "alt" tags to images
 4. In CSS, moved all CSS having to do with Content section in between "Content" comments.
 5. Condensing class names under this section to all be under class "online-marketing-types." Why? Because all class .css in this section are redundant.  Condensed "img," "h2" and type-specific formatting.
 6.  Added id of "search-engine-optimization" to that section as link was broken.
+
+Benefits
+1.  Change first <div> to <section>
+2.  Condense code in .css.
+3.  Added "alt" tags to <img> and fixed Cost Management <img> tag. Left <alt> tags blank as icons just added for design.
+4.  Changed second <div> tags in to <article>.
+5. Removed redundant classes and used just one .benefits-type.
+6. Moved color to .benefits in .css
+7. Condensed H3 and img in .css
+
+Footer
+1. Change <div> to <footer>. Remove "footer" class and change .css to use "footer" instead of ".footer".
+
+Post-Mortem
+1. Looking for redundancies in code:
+	Moved redundant mentions of font-family to body.
+	Moved redundant mentions of color to body.
