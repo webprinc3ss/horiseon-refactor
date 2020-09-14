@@ -17,6 +17,8 @@ WHEN I view the title element
 THEN I find a concise, descriptive title
 
 ********************************************************
+View: https://webprinc3ss.github.io/horiseon-refactor/
+Screenshot: https://webprinc3ss.github.io/horiseon-refactor/horiseon-screenshot.jpg
 
 CHANGES MADE
 
