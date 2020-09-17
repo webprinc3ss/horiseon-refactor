@@ -12,14 +12,12 @@ Screenshot: https://webprinc3ss.github.io/horiseon-refactor/horiseon-screenshot.
       <ol>
          <li>TITLE changed text "Horiseon" in HTML.
       </ol>
-      <br />
  
    <H3>Utility Styles</h3>
       <br />
       <ol>
          <li>Moved A, P, to rest under BODY in CSS so "utilities" kept together.</li>
       </ol>
-      <br />
 
    <H3>Under Header</h3>
       <ol>
@@ -27,13 +25,11 @@ Screenshot: https://webprinc3ss.github.io/horiseon-refactor/horiseon-screenshot.
          <li>DIV holding nav elements renamed to NAV in HTML.</li>
          <li>Renamed styles in CSS to correspond to those changes</li>
       </ol>
-      <br />
 
    <H3>Under Hero</h3>
       <ol>
          <li>Changed DIV to SECTION with a class of "hero" in HTML.</li>
       </ol>
-      <br />
 
    <H3>Under Marketing Types</h3>
       <ol>
@@ -44,7 +40,6 @@ Screenshot: https://webprinc3ss.github.io/horiseon-refactor/horiseon-screenshot.
          <li>Condensing class names under this section to all be under class "online-marketing-types." Why? Because all class .css in this section are redundant.  Condensed IMG, H2 and type-specific formatting.</li>
          <li>Added ID of "search-engine-optimization" to that section as link was broken. </li>
       </ol>
-      <br />
 
    <H3>Benefits</h3>
       <ol>
@@ -56,13 +51,11 @@ Screenshot: https://webprinc3ss.github.io/horiseon-refactor/horiseon-screenshot.
          <li>Moved color to .benefits in CSS.</li>
          <li>Condensed H3 and IMG styles.</li>
       </ol>
-      <br />
 
    <H3>Footer</h3>
       <ol>
          <li>Change DIV to FOOTER. Remove "footer" class and changed CSS to use FOOTER instead of ".footer"adjusted CSS accordingly.</li>
       </ol>
-      <br />
 
    <H3>Post-Mortem</h3>
       <ol>
