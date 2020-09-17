@@ -7,43 +7,69 @@ View: https://webprinc3ss.github.io/horiseon-refactor/<br />
 Screenshot: https://webprinc3ss.github.io/horiseon-refactor/horiseon-screenshot.jpg<br /><br />
 
 <h2>Details of Changes Made</h2>
-<br />
-<b>Under Head</b><br />
-1. TITLE changed text "Horiseon" in HTML.<br /><br />
+   <br />
+   <H3>Under Head</H3><br />
+      <ol>
+         <li>TITLE changed text "Horiseon" in HTML.
+      </ol>
+      <br />
  
-<b>Utility Styles</b><br />
-1. Moved A, P, to rest under BODY in CSS so "utilities" kept together.<br /><br />
+   <H3>Utility Styles</h3>
+      <br />
+      <ol>
+         <li>Moved A, P, to rest under BODY in CSS so "utilities" kept together.</li>
+      </ol>
+      <br />
 
-<b>Under Header</b><br />
-1. "div class="header"" changed to HEADER tag in HTML.<br />
-2. DIV holding nav elements renamed to NAV in HTML.<br />
-3. Renamed styles in CSS to correspond to those changes<br /><br />
+   <H3>Under Header</h3>
+      <ol>
+         <li>"div class="header"" changed to HEADER tag in HTML.</li>
+         <li>DIV holding nav elements renamed to NAV in HTML.</li>
+         <li>Renamed styles in CSS to correspond to those changes</li>
+      </ol>
+      <br />
 
-<b>Under Hero</b><br />
-1. Changed DIV to SECTION with a class of "hero" in HTML.<br /><br />
+   <H3>Under Hero</h3>
+      <ol>
+         <li>Changed DIV to SECTION with a class of "hero" in HTML.</li>
+      </ol>
+      <br />
 
-<b>Under Marketing Types</b><br />
-1. Changed DIV to SECTION with a class of "online-marketing" in HTML.<br />
-2. Changed DIV from each sub-section into ARTICLE for each with their existing classes in HTML.<br />
-3. Added meaningful "alt" tags to images, but no names because just icons.<br />
-4. In CSS, moved all CSS having to do with Marketing section in between "Marketing" comments.<br />
-5. Condensing class names under this section to all be under class "online-marketing-types." Why? Because all class .css in this section are redundant.  Condensed IMG, H2 and type-specific formatting.<br />
-6.  Added ID of "search-engine-optimization" to that section as link was broken.<br /><br />
+   <H3>Under Marketing Types</h3>
+      <ol>
+         <li>Changed DIV to SECTION with a class of "online-marketing" in HTML</li>
+         <li>Changed DIV from each sub-section into ARTICLE for each with their existing classes in HTML.</li>
+         <li>Added meaningful "alt" tags to images, but no names because just icons.</li>
+         <li>In CSS, moved all CSS having to do with Marketing section in between "Marketing" comments.</li>
+         <li>Condensing class names under this section to all be under class "online-marketing-types." Why? Because all class .css in this section are redundant.  Condensed IMG, H2 and type-specific formatting.</li>
+         <li>Added ID of "search-engine-optimization" to that section as link was broken. </li>
+      </ol>
+      <br />
 
-<b>Benefits</b><br />
-1.  Change first DIV to SECTION in HTML<br />
-2.  Condense code in CSS<br />
-3.  Added "alt" tags to IMG and fixed Cost Management IMB tag. Left ALT tags blank as icons just added for design.<br />
-4.  Changed second DIV tags in to ARTICLE.<br />
-5.  Removed redundant classes and used just one .benefits-type.<br />
-6.  Moved color to .benefits in CSS.<br />
-7.  Condensed H3 and IMG styles.<br /><br />
+   <H3>Benefits</h3>
+      <ol>
+         <li>Change first DIV to SECTION in HTML</li>
+         <li>Condense code in CSS</li>
+         <li>Added "alt" tags to IMG and fixed Cost Management IMB tag. Left ALT tags blank as icons just added for design.</li>
+         <li>Changed second DIV tags in to ARTICLE.</li>
+         <li>Removed redundant classes and used just one .benefits-type.</li>
+         <li>Moved color to .benefits in CSS.</li>
+         <li>Condensed H3 and IMG styles.</li>
+      </ol>
+      <br />
 
-<b>Footer</b><br />
-1. Change DIV to FOOTER. Remove "footer" class and changed CSS to use FOOTER instead of ".footer"adjusted CSS accordingly.<br /><br />
+   <H3>Footer</h3>
+      <ol>
+         <li>Change DIV to FOOTER. Remove "footer" class and changed CSS to use FOOTER instead of ".footer"adjusted CSS accordingly.</li>
+      </ol>
+      <br />
 
-<b>Post-Mortem</b><br />
-1. Looking for redundancies in code:<br />
-   Moved redundant mentions of "font-family" to BODY.<br />
-   Moved redundant mentions of "color" to BODY.<br />
-2. Fixed Color bug on FOOTER.<br />
+   <H3>Post-Mortem</h3>
+      <ol>
+         <li>Looking for redundancies in code:
+            <ul>
+               <li>Moved redundant mentions of "font-family" to BODY.</li>
+               <li>Moved redundant mentions of "color" to BODY.</li>
+            </ul>
+         <li>Fixed Color bug on FOOTER.
+      </ol>
